@@ -62,16 +62,16 @@ public class Ticketera {
                         + "Seleccione:");
                 if (eleccionPago.equals("1")){
                     mostrarTicketEfe(productos);
-                    System.out.printf("                     Gracias por su compra, "+nombre+"!!");
+                    System.out.printf("                     Gracias por su compra, "+nombre+"!!!");
                     break;
                     
                 } else if (eleccionPago.equals("2")){
                     mostrarTicketDebit(productos);
-                    System.out.printf("                     Gracias por su compra, "+nombre+"!!");
+                    System.out.printf("                     Gracias por su compra, "+nombre+"!!!");
                     break;
                 } else if (eleccionPago.equals("3")){
                     mostrarTicketCred(productos);
-                    System.out.printf("                     Gracias por su compra, "+nombre+"!!");
+                    System.out.printf("                     Gracias por su compra, "+nombre+"!!!");
                     break;
                 }
                 else if (eleccionPago.equals("4")){
